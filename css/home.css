@@ -2,4 +2,15 @@
     background-image: "../assets/fondo1.jpg";
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
+    font-family: 'Koulen', cursive;
+    color: white;
+    font-size: xx-large;
+    justify-content: center;
+
 }
+
+
+main {
+    padding-top: 80px;
+  }

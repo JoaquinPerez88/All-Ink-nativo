@@ -8,20 +8,29 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"    />
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
     <title>Home</title>
   </head>
  
   <body style="background-image:url(./assets/fondo1.jpg); background-size: cover;
-  background-position: center;">
+ ">
 
     <header>
 
-      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Home</a>
+      <nav class=" navbar navbar-expand-lg bg-body-tertiary" style="background-color: transparent;">
+        <div class="container-fluid" style="background-color: transparent;">
+          <a class="navbar-brand" href="./index.html">
+
+             <img src="./assets/Logo 2.png" alt="Logo de mi sitio web">
+            
+          </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -30,21 +39,19 @@
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/Nosotros.html">Nosotros</a>
+            <ul class="navbar-nav justify-content-center" >
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="./pages/Nosotros.html">Nosotros</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-4">
                 <a class="nav-link" href="./pages/Estudio.html">Estudio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
+              </li>           
+              <li class="nav-item dropdown mx-4">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -55,14 +62,18 @@
                   Galeria
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./pages/NuestrosDisenios.html">Diseños</a></li>
+                  <li><a class="dropdown-item" href="./pages/NuestrosDisenios.html">Desings</a></li>
                   <li><a class="dropdown-item" href="./pages/NuestrosTrabajos.html">Nuestros trabajos</a></li>
                 </ul>
               </li>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-4">
               <a class="nav-link" href="./pages/Contacto.html">Contactanos</a>
             </li>
+
+          
+              
+
             </ul>
           </div>
         </div>
@@ -71,8 +82,8 @@
 
     <main class="fondo">
        
-        <h1>ALL-INK TATTO STUDIO</h1>
-        <h2>Buenos aires</h2>
+        <h1 style="font-size: 100px;">ALL-INK tattoo studio</h1>
+        <h2 style="font-size: 70px; margin-top: 0px;  ">Buenos aires</h2>
 
 
 
@@ -81,6 +92,56 @@
 
 
     </main>
+
+    <footer class="bg-dark text-center text-white">
+
+      <div class="container p-4 pb-0">
+ 
+        <section class="mb-4">
+
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+      
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+    
+      </div>
+
+    
+      
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright: Joaquín Pérez
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"

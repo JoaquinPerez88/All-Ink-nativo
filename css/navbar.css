@@ -1,0 +1,42 @@
+
+.header {
+    background-color: transparent !important;
+    
+  }
+  .navbar  {
+    background-color: transparent !important;
+    height: 120px;
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+}
+    
+    
+  .navbar-nav li a {
+    color: #fff; 
+  }
+
+  .navbar-nav li a:hover {
+    background-color: white; 
+    color: black;
+  }
+    
+  .nav-item :hover{color: black;
+
+  }
+
+
+  .navbar-brand {
+    color: white
+ }
+
+ .dropdown-menu {
+    background-color: transparent;
+    font-size: 30px;
+  }
+  
+  .navbar-brand img {
+    max-width: 100px;
+    height: auto;
+  }
+
+ 
