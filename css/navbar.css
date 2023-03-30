@@ -44,3 +44,58 @@
   }
 
   
+  
+  .instagram  {
+    text-decoration: none;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    }
+    
+
+  .instagram  :hover{
+    transform: scale(1.2);
+  }
+
+  .botonInstagram {
+    justify-content: right;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px ;
+    
+  }
+
+
+  .whatsapp  {
+    text-decoration: none;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    }
+    
+
+  .whatsapp  :hover{
+    transform: scale(1.2);
+  }
+
+  .botonWhatsapp {
+    justify-content: right;
+    text-align: right;
+    margin-right: 180px;
+    margin-top: 20px ;
+    
+  }
+  
+  
