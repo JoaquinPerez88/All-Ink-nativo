@@ -98,4 +98,12 @@
     
   }
   
-  
+  .logoEstilo {
+   transition: all .4s ease-in-out;
+   
+
+  }
+
+  .logoEstilo :hover {
+    transform: scale(1.2);
+  }
